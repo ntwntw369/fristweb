@@ -13,6 +13,7 @@
 	</head>
 
 	<body style="background-color:gray">
+		
 		<p>이거슨 개쩌는것!!</p><br />
 		<h1>메인타이틀</h1>
 		<h2>최상위타이틀</h2>
@@ -31,7 +32,38 @@
 			<li>양파넣기</li>
 			<li>먹기</li>
 		</ol>
-			이름 : <input type = "text" id="nick" size="20" placeholder="입력해씨@발">
+		<MarQuee scrolldelay = "1" scrollamount="100">이에에에에에에에에</MarQuee>
+		<div style="position:absolute; left:500px; width:500px; height:2000px;">
+			<MarQuee width="1000" height="20" direction="up"><img src="고자라니.jpg" alt="뭘봐"></MarQuee>
+		</div>
+			<div style="position:absolute; left:10px; right:100px; down:100px; overflow:visible;">
+				<MarQuee direction="down" height="150" width="100" scrollamount="290">
+					<MarQuee scrolldelay = "1" scrollamount="100">이에에에에에에에에
+					</MarQuee>
+				</MarQuee>
+			</div>
+			<div style="position:absolute; left:300px; right:100px; down:100px; overflow:visible;">
+				<MarQuee direction="down" height="150" width="100" scrollamount="90">
+					<MarQuee scrolldelay = "10" scrollamount="40">떨어진드아아아아아
+					</MarQuee>
+				</MarQuee>
+			</div>
+		<h1>달력</h1>
+		<table border='1'>
+			<tr>	
+				<th>일요일</th>
+				<th>월요일</th>
+				<th>화요일</th>
+				<th>수요일</th>
+				<th>목요일</th>
+				<th>금요일</th>
+				<th>토요일</th>
+				<th><script>document.write(4 * 5);</script></th>
+			</tr>
+			<tr>
+				<td><script>document.write(4 * 5);</script></th>
+		</table>
+			이름 : <input type = "text" id="nick" size="20" placeholder="아니그러니까좀 뭔가 해봐 구라고 이거 어케해야 하지?">
 			<input type="button" value="입력" onclick="go();"/>
 			<br />
 		<a href="file:///C:/Users/t/Desktop/html/sc.html">먹기</a>
@@ -45,5 +77,6 @@
 		<span style="color:red"><strong>(" 또는 ')</strong></span>가 있어야 합니다</p>
 		
 		<script src="main.js"></script>
+		<script src="date.js"></script>
 	</body>
 </html>
