@@ -198,5 +198,33 @@
 <font color=ffff00 size=90>ANG!!</font>
 </Marquee>
 </div>
+
+<script language="javascript">
+
+function goja() {
+
+	var imgnum = Math.floor(Math.random() * 3);
+	var img_src;
+	
+	img_src = imgnum + 'goja.jpg';
+	
+	document.getElementById('goja').src=img_src
+	setTimeout("goja()", 200);
+	return img_src;
+	}
+
+</script>
+
+<div style="position:absolute; top:1900px; left:1900px;">
+
+<p> asdfasdf </p>
+<img id="goja" src="">
+
+	<script>
+	document.getElementById('goja').src=goja()
+	</script>
+</div>
+
+
 		</body>
 </html>
