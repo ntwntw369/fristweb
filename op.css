@@ -8,3 +8,6 @@ li{
 a{
 	white-space:nowrap;
 }
+html{
+	cursor: url(pointer.cur), auto
+}

@@ -95,19 +95,24 @@
 			<tr>
 				<td><script>document.write(4 * 5);</script></th>
 		</table>
-			이름 : <input type = "text" id="nick" size="20" placeholder="아니그러니까좀 뭔가 해봐 구라고 이거 어케해야 하지?">
+			방명록 : <input type = "text" id="invite_text" size="20" placeholder="방명록을 작성해주세요@">
 			<input type="button" value="입력" onclick="go();"/>
 			<br />
 		<a href="sc.html">먹기</a>
 		
-		<input type="button" value="삽입" onclick="alert('뭐지?떆뜨를 하자는 뜻인가?')"/>
+		<input type="button" value="삽입" onclick="alert('어림도없다 암')"/>
 			
 		<p><span>요소 이름 </span>(또는 요소가 하나 이상 속성을 이미 가지고 있다면 이전 속성)
 		<br />과 속성 사이에 공백이 있어야 합니다.<br /><br />
 		속성 이름 뒤에는 <em>등호(=)</em>가 와야 <br />합니다.
 		속성 값의 앞 뒤에 열고 닫는 인용부호<br />
 		<span style="color:red"><strong>(" 또는 ')</strong></span>가 있어야 합니다</p>
-		
+		<script>  
+			Array.prototype.forEach.call(document.querySelectorAll('.del-btn'), function(btn) {
+				btn.addEventListener('click', function(e) {
+				});
+			});
+		</script>
 		<script src="main.js"></script>
 		<script src="date.js"></script>
 	</body>
