@@ -115,11 +115,11 @@
 			</div>
 		<script type="text/javascript" src="https://jsonip.com"></script>
 		<script type="text/javascript">
-			function callip(json) {
+			window.onload = function getIP(json) {
 				document.write(json.ip);
 			}
 		</script>
-		<script type="text/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+		<script type="text/javascript" src="https://api.ipify.org?format=json&callback=GetIP"></script>
 		<script src="main.js"></script>
 		<script src="date.js"></script>
 		<script callip();></script>
