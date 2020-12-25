@@ -67,7 +67,7 @@ database_url = os.environ['DATABASE_URL']
 riot_api = os.environ['riot_api']
 naver_id = os.environ['naver_id']
 naver_pw = os.environ['naver_pw']
-"""
+
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 #봇 접두사
 bot = commands.Bot(command_prefix='준식')
