@@ -113,13 +113,14 @@
 				<h2><br/>컨텐츠<h2>
 				<h3><br/>1.일반적인 테트리스<br/>2.2인협동 테트리스 한명이 내리면 다른 한명이 내림.<br/>3.2인동시조종 테트리스 트롤일까 천사일까?<br/>4.중력테트리스버전 1, 2, 3<br/>
 			</div>
-		<script type="text/javascript" src="https://jsonip.com"></script>
 		<script type="text/javascript">
-			window.onload = function getIP(json) {
+			function getIP(json) {
 				document.write(json.ip);
 			}
 		</script>
-		<script type="text/javascript" src="https://api.ipify.org?format=json&callback=GetIP"></script>
+		<script type="text/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP">
+		</script>
+
 		<script src="main.js"></script>
 		<script src="date.js"></script>
 		<script callip();></script>
